@@ -47,5 +47,3 @@ regenerate:       true
 plugins:
   - jekyll-feed
   - jemoji
-
-encoding:       utf-8

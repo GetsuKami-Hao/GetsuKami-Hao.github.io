@@ -1,11 +1,7 @@
-# frozen_string_literal: true
+source 'https://gems.ruby-china.com/'
+gem 'jekyll-paginate'
 
-source "https://rubygems.org"
+gem "jekyll", "~> 4.0"
+gem "rake"
 
-git_source(:github) { |repo_name| "https://github.com/#{repo_name}" }
-gem "jekyll"
-gem 'jekyll-feed'
-gem 'jemoji'
-gem 'webrick'
-
-# gem "rails"
+gem "webrick", "~> 1.7"
